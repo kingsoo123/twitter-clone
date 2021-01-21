@@ -1,12 +1,19 @@
 import React from 'react';
+import './style.css'
+import LeftComponent from './LeftComponent'
+
 
 const LadingPage = ()=>{
     return(
-        <>
-        <div style={{width: '40%', height:'100vh'}}>
+        <div className='container'>
+        <LeftComponent/>
+        <div className='centerComponent'>
 
         </div>
-        </>
+        <div className="rightCoomponent">
+
+        </div>
+        </div>
     )
 }
 
