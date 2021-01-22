@@ -1,15 +1,9 @@
-.container{
-    display: flex;
-    flex-direction: row;
-}
-
-
 .leftComponent{
     width: 30%;
     height: 100vh;
     background-color: rebeccapurple;
 }
-.rightCoomponent{
+.rightComponent{
     width: 30%;
     height: 100vh;
     background-color: yellow;
@@ -23,16 +17,47 @@
 
 
 
-@media screen and (max-width: 1004px) {
+/* @media screen and (max-width: 1004px) {
     .leftComponent {
-      background-color: blue;
+        width: 10%;
+        background-color: blue;
     }
 
-    .rightCoomponent{
-        width: 0%;
+    .rightComponent{
+        display: none;
     }
 
     .centerComponent{
-        width: 70%;
+        width: 80%;
+    }
+  } */
+
+
+  @media screen and (max-width: 500px) {
+    .leftComponent {
+    display: none;
+    }
+
+    .centerComponent{
+        width: 100% !important;
+    }
+
+    .rightComponent{
+        display: none;
+     }
+  }
+
+  @media screen and (max-width: 1282px) {
+    .leftComponent {
+    width: 20%;
+    background-color: blue;
+    }
+
+    .rightComponent{
+       display: none;
+    }
+
+    .centerComponent{
+        width: 80%;
     }
   }
