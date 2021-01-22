@@ -3,6 +3,7 @@
     width: 30%;
     height: 100vh;
     background-color: rebeccapurple;
+    padding-left: 20px;
 }
 .rightComponent{
     width: 30%;
@@ -17,6 +18,7 @@
     position: relative;
 }
 
+
 .content-head{
     justify-items: normal;
     display: flex;
@@ -27,6 +29,7 @@
     border-width: 2px;
     border-style: solid;
 }
+
 
   @media screen and (max-width: 500px) {
     .leftComponent {
