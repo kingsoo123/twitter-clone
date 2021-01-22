@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import { faHome, faHashtag, faBell, faEnvelope, faBookmark, faList, faUser } from '@fortawesome/free-solid-svg-icons'
 
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={faCoffee} size="lg"/>
 
 const LeftComponent = ()=>{
     return(
