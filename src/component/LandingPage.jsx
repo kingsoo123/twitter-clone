@@ -8,12 +8,7 @@ const LadingPage = ()=>{
     return(
         <div className='container-fluid row p-0'>
         <LeftComponent/>
-        <div className='centerComponent'>
         <CenterComponent/>
-        </div>
-        <div className="rightComponent">
-
-        </div>
         </div>
     )
 }

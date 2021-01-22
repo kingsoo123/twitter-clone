@@ -1,34 +1,38 @@
+import '../style.css'
+import { faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import coutinho from '../../images/coutinho.jpg'
+
+const coff = <FontAwesomeIcon icon={faStarHalfAlt} />
+
 
 
 const Tweet = () => {
     return(
-        <div className="jumbotron">
-       <div className="row">
-            <div className="col-2">
-                {/* <img style={{borderRadius: '50%'}} src="https://assets.telegraphindia.com/telegraph/2020/Oct/1603223670_google.jpg" alt="" /> */}
+        <>
+        
+        <div>
+                <div style={{display: 'flex', margin: '10px'}}>
+                    <img style={{borderRadius: '50%'}} alt='' src={coutinho} width='50px' height='50px' />
+                    <p style={{textAlign: 'center', fontSize: '20px', whiteSpace: 'pre-wrap', margin: '10px 10px 10px 10px', color: 'grey'}}>What's happening?</p>
+                </div>
+
+                <div>
+                    <div style={{float: 'left', display: 'flex', marginLeft: '9%'}}>
+                        <p style={{paddingRight: '15px', color: 'lightskyblue'}}>{coff}</p>
+                        <p style={{paddingRight: '15px', color: 'lightskyblue'}}>{coff}</p>
+                        <p style={{paddingRight: '15px', color: 'lightskyblue'}}>{coff}</p>
+                        <p style={{paddingRight: '15px', color: 'lightskyblue'}}>{coff}</p>
+                        <p style={{color: 'lightskyblue'}}>{coff}</p>
+                        
+                    </div>
+                    <button 
+                    style={{borderRadius: '15px', backgroundColor: 'lightskyblue', float: 'right', margin: '0px 10px 0px 0px',
+                    color: 'white', border: 'white', width:'60px', height: '30px'}}>Tweet</button>
+                </div>
+
             </div>
-
-            <div className="col-9">
-                {/* Top inner row */}
-
-               <div className="row">
-                <div className="col-4">
-                <small>Google International</small>
-                </div>
-                <div className="col-2">
-                <small>Google</small>
-                </div>
-                <div className="col-2">
-                    <small>14m</small>
-                </div>
-
-               </div>
-
-            </div>
-
-       </div>
-
-      </div>
+        </>
     );
 }
 
