@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-.container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
 
-
-=======
->>>>>>> 927f8422f99397c9ccf11397c3686a15dfab3a2e
 .leftComponent{
     width: 30%;
     height: 100vh;
@@ -37,24 +28,6 @@
     border-style: solid;
 }
 
-
-
-/* @media screen and (max-width: 1004px) {
-    .leftComponent {
-        width: 10%;
-        background-color: blue;
-    }
-
-    .rightComponent{
-        display: none;
-    }
-
-    .centerComponent{
-        width: 80%;
-    }
-  } */
-
-
   @media screen and (max-width: 500px) {
     .leftComponent {
     display: none;
@@ -80,10 +53,6 @@
     }
 
     .centerComponent{
-<<<<<<< HEAD
-        width: 100%;
-=======
         width: 80%;
->>>>>>> 927f8422f99397c9ccf11397c3686a15dfab3a2e
     }
   }
