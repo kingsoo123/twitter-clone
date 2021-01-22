@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 import LeftComponent from './LeftComponent'
-import CenterComponent from './CenterPage';
+import CenterComponent from './centerComponent/CenterPage';
 
 
 const LadingPage = ()=>{

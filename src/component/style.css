@@ -3,12 +3,17 @@
     width: 30%;
     height: 100vh;
     background-color: rebeccapurple;
-    padding-left: 20px;
 }
 .rightComponent{
     width: 30%;
     height: 100vh;
     background-color: yellow;
+}
+
+.tweet{
+    background-color: red;
+    display: flex;
+    position: relative;
 }
 
 .centerComponent{
@@ -18,10 +23,10 @@
     position: relative;
 }
 
-
 .content-head{
     justify-items: normal;
     display: flex;
+    padding: 10px;
     border-bottom-color: whitesmoke;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -30,10 +35,10 @@
     border-style: solid;
 }
 
-
   @media screen and (max-width: 500px) {
     .leftComponent {
     display: none;
+    background-color: red !important;
     }
 
     .centerComponent{
