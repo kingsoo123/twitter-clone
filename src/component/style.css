@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.leftComponent{
+    width: 30%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+.rightCoomponent{
+    width: 30%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.centerComponent{
+    width: 40%;
+    height: 100vh;
+    background-color: green;
+}
+
+
+
+@media screen and (max-width: 1004px) {
+    .leftComponent {
+      background-color: blue;
+    }
+
+    .rightCoomponent{
+        width: 0%;
+    }
+
+    .centerComponent{
+        width: 70%;
+    }
+  }
