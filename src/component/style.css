@@ -1,0 +1,47 @@
+.leftComponent{
+    width: 30%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    padding-left: 20px;
+}
+.rightComponent{
+    width: 30%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.centerComponent{
+    width: 40%;
+    height: 100vh;
+    background-color: green;
+}
+
+
+  @media screen and (max-width: 500px) {
+    .leftComponent {
+    display: none;
+    }
+
+    .centerComponent{
+        width: 100% !important;
+    }
+
+    .rightComponent{
+        display: none;
+     }
+  }
+
+  @media screen and (max-width: 1282px) {
+    .leftComponent {
+    width: 20%;
+    background-color: blue;
+    }
+
+    .rightComponent{
+       display: none;
+    }
+
+    .centerComponent{
+        width: 80%;
+    }
+  }
