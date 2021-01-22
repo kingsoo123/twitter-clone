@@ -2,6 +2,7 @@
     width: 30%;
     height: 100vh;
     background-color: rebeccapurple;
+    padding-left: 20px;
 }
 .rightComponent{
     width: 30%;
@@ -14,23 +15,6 @@
     height: 100vh;
     background-color: green;
 }
-
-
-
-/* @media screen and (max-width: 1004px) {
-    .leftComponent {
-        width: 10%;
-        background-color: blue;
-    }
-
-    .rightComponent{
-        display: none;
-    }
-
-    .centerComponent{
-        width: 80%;
-    }
-  } */
 
 
   @media screen and (max-width: 500px) {
