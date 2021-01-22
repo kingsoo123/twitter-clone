@@ -25,9 +25,26 @@ strong{
 }
 
 .centerComponent{
+
     width: 45%;
+
+    width: 100%;
+
     height: 100vh;
-    background-color: green;
+    background-color: transparent;
+    position: relative;
+}
+
+
+.content-head{
+    justify-items: normal;
+    display: flex;
+    border-bottom-color: whitesmoke;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .menuItems{
