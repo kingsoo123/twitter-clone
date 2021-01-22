@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h3{
+    font-family: 'Anton', sans-serif;
+    color: #000000;
+    font-size: large;
+}
+
+strong{
+    color: #ffffff;
+}
+
 .leftComponent{
-    width: 30%;
+    width: 25%;
     height: 100vh;
     padding-top: 30px;
     background-color: rgb(255, 255, 255);
@@ -13,11 +25,33 @@
 }
 
 .centerComponent{
-    width: 40%;
+    width: 45%;
     height: 100vh;
     background-color: green;
 }
 
+.menuItems{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.profileMenu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    
+}
+.tweet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    background-color: #1DA1F2;
+    padding: 10px;
+    border-radius: 30px;
+}
 
   @media screen and (max-width: 500px) {
     .leftComponent {
