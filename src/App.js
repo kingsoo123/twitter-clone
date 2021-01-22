@@ -2,7 +2,9 @@ import LandingPage from './component/LandingPage'
 
 function App() {
   return (
-   <LandingPage/>
+  <div style={{width: '100%'}}>
+     <LandingPage/>
+  </div>
   );
 }
 
