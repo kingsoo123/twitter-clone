@@ -109,26 +109,21 @@ textarea {
     .leftComponent {
     display: none;
     }
-
     .centerComponent{
         width: 100% !important;
     }
-
     .rightComponent{
         display: none;
      }
   }
-
   @media screen and (max-width: 1282px) {
     .leftComponent {
     width: 20%;
     background-color: blue;
     }
-
     .rightComponent{
        display: none;
     }
-
     .centerComponent{
         width: 80%;
     }
