@@ -1,8 +1,10 @@
 .leftComponent{
     width: 30%;
     height: 100vh;
-    background-color: rebeccapurple;
-    padding-left: 20px;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 .rightComponent{
     width: 30%;
