@@ -29,18 +29,42 @@ strong{
     height: 100vh;
     background-color: green;
 }
+.menuFirst{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
 
 .menuItems{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+.menuItems:hover{
+    background-color: #E8F5FE;
 }
 
 .profileMenu{
+    width: 250px;
     display: flex;
     flex-direction: row;
     margin-top: 130px;
-    
+    cursor: pointer;
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-top: 8px;   
+}
+
+.profileMenu:hover{
+    background-color: #E8F5FE;
 }
 .tweet{
     display: flex;
@@ -51,6 +75,7 @@ strong{
     background-color: #1DA1F2;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
   @media screen and (max-width: 500px) {

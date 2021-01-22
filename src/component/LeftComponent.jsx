@@ -8,8 +8,10 @@ import { faHome, faHashtag, faBell, faEnvelope, faBookmark, faList, faUser } fro
 const LeftComponent = ()=>{
     return(
         <div className="leftComponent">
-        <div style={{width: 200}}>      
-                <FontAwesomeIcon icon={faTwitter} size="1x" color="#1DA1F2"/>
+        <div style={{width: 200}}>   
+                <span className='menuFirst'>
+                    <FontAwesomeIcon icon={faTwitter} size="1x" color="#1DA1F2"/>
+                </span>   
                 <span className='menuItems'>
                     <FontAwesomeIcon icon={faHome} size="1x"/>
                     <h3 style={{marginLeft: 20}}>Home</h3>
