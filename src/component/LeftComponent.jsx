@@ -5,7 +5,7 @@ const LeftComponent = ()=>{
     return(
         <>
         <div className="leftComponent">
-
+        <i className="fab fa-twitter"></i>
         </div>
         </>
     )

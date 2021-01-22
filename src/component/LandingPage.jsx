@@ -6,12 +6,12 @@ import CenterComponent from './CenterPage';
 
 const LadingPage = ()=>{
     return(
-        <div className='container'>
+        <div className='container-fluid row p-0'>
         <LeftComponent/>
         <div className='centerComponent'>
         <CenterComponent/>
         </div>
-        <div className="rightCoomponent">
+        <div className="rightComponent">
 
         </div>
         </div>
