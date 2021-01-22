@@ -1,7 +1,7 @@
 .leftComponent{
     width: 30%;
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: rgb(255, 255, 255);
     padding-left: 20px;
 }
 .rightComponent{
